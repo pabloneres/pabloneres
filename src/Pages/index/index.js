@@ -15,7 +15,7 @@ export default class Home extends Component {
                     <h1>Pablo Neres</h1>
                     <p className='cargo'>Web Developer</p>
                     <p className='descri' >Programador full-stack, JavaScript, NodeJS
-                    ReactJS, React-Native, Html, Css</p>
+                    ReactJS, React-Native, Html, CSS</p>
                 </div>
                 <div id='redes-footer' className="redes">
                     <h1><a href="https://github.com/pabloneres" target="_blank" rel="noopener noreferrer">Github</a></h1>
