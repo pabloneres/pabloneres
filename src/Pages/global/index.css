@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #262626;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black 1px solid;
+}
+
+header ul {
+    padding: 15px 0;
+}
+
+header ul li {
+    list-style: none;
+    color: white;
+    display:  inline-block;
+    font-weight: bold;
+    border-bottom:  2px solid #A200B4;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+header ul li + li {
+    margin-left: 60px;
+    
+}
+
+header ul li a:hover{
+    color: #A200B4;
+}
+
+.content-header {
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #262626;
+
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
